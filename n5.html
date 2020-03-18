@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Palíndromo? </title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var x=document.getElementById("AAAA").value;
+					var z= x.length;
+					var c= 0;
+					for(var y=0;y<z;y++){
+						if(x.charAt(y-1)===x.charAt(z-y)){ 
+							c++;
+							}
+						
+					}
+					if(c==z) alert("Esta palavra é um palíndromo");
+					else alert("Esta palavra não é um palíndromo");
+					
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Forneça uma palavra: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="text" onclick="AAA()">Analisar</button>
+		</body>
+	</html>
