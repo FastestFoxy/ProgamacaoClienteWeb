@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Tenis Polar</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var x=document.getElementById("AAAA").value;
+					var y = "";
+					
+					
+					for(var i=0;i<x.length;i++){
+						var z=x.charAt(i);
+						
+						switch(x.charAt(i)){
+							case 't': y+="p";
+									break;
+							case 'T': y+="P";
+									break;
+							case 'p': y+="t";
+									break;
+							case 'P': y+="T";
+									break;
+							case 'e': y+="o";
+									break;
+							case 'E': y+="O";
+									break;
+							case 'o': y+="e";
+									break;
+							case 'O': y+="E";
+									break;
+							case 'n': y+="l";
+									break;
+							case 'N': y+="L";
+									break;
+							case 'l': y+="n";
+									break;
+							case 'L': y+="N";
+									break;
+							case 'i': y+="a";
+									break;
+							case 'I': y+="A";
+									break;
+							case 'a': y+="i";
+									break;
+							case 'A': y+="I";
+									break;
+							case 's': y+="r";
+									break;
+							case 'S': y+="R";
+									break;
+							case 'r': y+="s";
+									break;
+							case 'R': y+="S";
+									break;
+							default: y+=z;
+									break;
+						}
+					}
+					alert(y);
+					
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Insira uma palavra ou frase para ser transformada: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="text" onclick="AAA()">Transformar</button>
+		</body>
+	</html>
