@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>The Fibonacci Sequence</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var a=0;
+					var b=1;
+					var c;
+					var z = document.getElementById("AAAA").value;
+					alert("Os números da sequência Fibunacci até o ponto fornecido são: ");
+					alert(a);
+					for(var x=0;x<z-1;x++){
+						c=a+b;
+						
+						alert(c);
+						
+						b=a;
+						a=c;
+						
+					}
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Forneça a quantidade de valores da sequência que queres: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="num" onclick="AAA()">Calcular</button>
+		</body>
+	</html>
