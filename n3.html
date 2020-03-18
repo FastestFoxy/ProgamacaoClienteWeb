@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>MMC</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var ent1 = document.getElementById("AAAA").value;
+					var ent2 = document.getElementById("AAAa").value;
+					var a = ent1;					
+					var b = ent2;
+					var c = 0;
+					do{
+						c = a%b; 
+						
+						a=b;
+						b=c;
+					}
+					while(c!=0)
+					var z = "O MMC destes numeros é: " + ((ent1*ent2)/a);
+					alert(z);
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Indique dois números: </h3>
+			<input type="text" id="AAAA">
+			<input type="text" id="AAAa">
+			<button id="AAA" type="num" onclick="AAA()">Calcular</button>
+		</body>
+	</html>
