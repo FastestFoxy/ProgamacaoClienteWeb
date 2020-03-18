@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Fatorial de N</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var x = document.getElementById("AAAA").value;
+					var i = x-1;
+					
+					while(i>=1)
+					{
+						x *= i;
+
+						i--;
+					}
+					
+					var z="O fatorial desse numero é "+x;
+					alert(z);
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Indique um número: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="num" onclick="AAA()">Calcular</button>
+		</body>
+	</html>
