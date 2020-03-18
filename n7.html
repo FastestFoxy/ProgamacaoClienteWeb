@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Inversão</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var x=document.getElementById("AAAA").value;
+					var z=x.length;
+					var y="";
+					
+					for(var i=0;i<=z;i++){
+					
+						y+=x.charAt(z-i);
+					
+					}
+					alert(y);
+				
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3> Insira uma frase para que seja invertida: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="text" onclick="AAA()">Inverter</button>
+		</body>
+	</html>
