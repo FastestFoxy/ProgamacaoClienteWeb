@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Primo?</title>
+			<meta charset="utf-8">
+			<script>
+				function AAA(){
+					var x = document.getElementById("AAAA").value;
+					var c=0;
+					var y=1;
+					
+					
+					if(x<=0) alert("O numero é negativo ou 0.");
+					else{
+						while(y<=x)
+						{
+							if(x%y==0) c++;
+							y++;
+						}
+					}
+					
+					if(c==2) alert("Este numero é primo.");
+					else alert("Este numero não é primo.");
+				}
+			</script>
+
+
+		</head>
+		<body>
+			<h3>Indique um número: </h3>
+			<input type="text" id="AAAA">
+			<button id="AAA" type="num" onclick="AAA()">Calcular</button>
+		</body>
+	</html>
